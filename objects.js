@@ -7,6 +7,6 @@ function updatePlaylist(playlist, artistName, songTitle){
 }
 
 function removeFromPlaylist(playlist, artistName){
-  delete playlist.artistName
-  return playlist = new Object()
+  delete playlist.artistName //why doesnt this work? I've discovered no workarounds for this
+  return playlist = new Object() //except this workaround.
 }
